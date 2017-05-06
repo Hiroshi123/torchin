@@ -1,0 +1,6 @@
+
+language: cpp
+script:
+  - g++ --version
+  - g++ -Wall -Wextra -pedantic test/test.cpp && ./a.out
+  
