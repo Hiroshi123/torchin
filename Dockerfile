@@ -1,7 +1,5 @@
 FROM ubuntu:14.04
 
-MAINTAINER: hiroshi123
-
 # Install
 RUN \
     sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list && \
