@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-Maintainer: hiroshi123
+MAINTAINER: hiroshi123
 
 # Install
 RUN \
